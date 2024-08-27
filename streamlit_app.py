@@ -16,7 +16,7 @@ def query_stabilitydiff(payload, headers):
 st.title("Stable Diffusion Image Generator")
 
 # User input for the prompt
-prompt = st.text_input("Enter a prompt", value="Genshin Impact")
+prompt = st.text_input("Enter a prompt", value="")
 
 if st.button("Generate Image"):
     # Get the image bytes from the API
